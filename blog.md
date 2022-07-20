@@ -36,8 +36,7 @@
 
 
 ### 結果
-
-<blockquote class="twitter-tweet" data-conversation="none"><a href="https://twitter.com/hino1729/status/1549622095448907777"></a></blockquote>
+https://twitter.com/hino1729/status/1549622095448907777"
 
 
 
