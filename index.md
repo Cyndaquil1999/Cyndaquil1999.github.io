@@ -6,4 +6,4 @@
 
 
 ## 記事
-<p><a href="https://cyndaquil1999.github.io/blog.md">記事はこちら</a></p>
+[blog.md](blog.md)
