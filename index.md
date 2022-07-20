@@ -1,4 +1,4 @@
-# hino's flog
+# hinoのブログ
 
 初めましてhinoです。
 
