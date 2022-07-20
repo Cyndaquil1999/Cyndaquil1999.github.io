@@ -6,4 +6,4 @@
 
 
 ## 記事
-[blog.md](blog.md)
+[記事はこちら](blog.md)
