@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
+#caymanだとtitleがうまく機能しない
 encoding: UTF-8
 title: hino's blog
 description: hinoのページ
