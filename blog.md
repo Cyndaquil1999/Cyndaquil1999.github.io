@@ -36,7 +36,7 @@
 
 
 ### 結果
-https://twitter.com/hino1729/status/1549622095448907777"
+[https://twitter.com/hino1729/status/1549622095448907777](結果のツイート)
 
 
 
