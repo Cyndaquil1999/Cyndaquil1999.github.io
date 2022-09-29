@@ -16,7 +16,7 @@ Ctrl + コンマをVSCode上で入力するとVSCodeの設定を開けます。
 
 検索欄に"rterm"を入力し、R > Rterm: Windowsの欄に、インストールしたRのパスを選択します。
 
-![image-20220930054232775](C:\Users\mcah8\AppData\Roaming\Typora\typora-user-images\image-20220930054232775.png)
+<img src="images/Rterm.png" alt="">
 
 
 
@@ -34,7 +34,9 @@ Ctrl + コンマをVSCode上で入力するとVSCodeの設定を開けます。
 print("Hello World!")
 ```
 
-![スクリーンショット 2022-09-30 054424](C:\Users\mcah8\OneDrive\画像\スクリーンショット 2022-09-30 054424.jpg)
+<img src="images/Hello.jpg" alt="">
+
+
 
 
 
