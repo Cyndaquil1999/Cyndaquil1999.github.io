@@ -1,5 +1,11 @@
 # RをWindows10のVSCodeで実行する
 
+## VSCode入っていることが前提になっています。
+
+## そうでない方はVSCodeをインストールしてください。
+
+
+
 
 
 ### Rをインストールする
@@ -19,10 +25,6 @@ Ctrl + コンマをVSCode上で入力するとVSCodeの設定を開けます。
 <img src="images/Rterm.png" alt="">
 
 
-
-##### 参考
-
-[R on VSCode on Windowsする](https://23prime.hatenablog.com/entry/2019/05/28/193046)
 
 
 
