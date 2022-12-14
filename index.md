@@ -53,5 +53,5 @@
 
 [RをWindows10のVSCodeで実行する](R_win10_vscode.md)
 
-
+[大学の課題をGoogleカレンダー連携して忘れないようにする方法](moodle_to_googlecalender.md)
 
