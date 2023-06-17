@@ -1,28 +1,69 @@
+/* フォント */
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    background: var(--background-gradient);
+  }
+  
+/* カラースキーム */
+:root {
+    --main-color: #333333; /* メインカラー */
+    --accent-color: #39e650; /* アクセントカラー */
+    --neutral-color: #f5f5f5; /* ネートラルカラー */
+    --background-gradient: linear-gradient(to bottom, #f5f5f5, #d3d3d3)
+}
+  
+/* リストスタイルの変更 */
 ul {
     list-style: none;
 }
-
-
-
-tr, td {
-    border: 1px, solid, #000000;
+  
+/* ヘッダーのスタイル */
+  header {
+    background-color: var(--accent-color);
 }
-
-
-
-
-.header {
-    background-color: aquamarine;
-}
-
+  
+/* ヘッダータイトルのスタイル */
 .header-title {
     font-size: 100px;
     text-align: center;
     font-family: Arial;
 }
-
-.header-subtitle {
-    font-size: 40px;
-    text-align: center;
-    font-family: "Helvetica", "ヒラギノ丸ゴシック";
+  
+/* タブのスタイル */
+.tab {
+    overflow: hidden;
+    border: 1px solid var(--neutral-color);
+    background-color: var(--neutral-color);
+    display: flex;
+    justify-content: center;
 }
+  
+.tab button {
+    background-color: var(--main-color);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    margin: 0 10px;
+}
+  
+.tab button:hover {
+    background-color: var(--accent-color);
+}
+  
+.tab button.active {
+    background-color: var(--accent-color);
+}
+  
+/* タブコンテンツのスタイル */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid var(--neutral-color);
+    border-top: none;
+}
+  
