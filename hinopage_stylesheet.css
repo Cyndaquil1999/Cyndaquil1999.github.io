@@ -7,11 +7,12 @@ body {
 /* カラースキーム */
 :root {
     --main-color: #333333; /* メインカラー */
-    --accent-color: #39e650; /* アクセントカラー */
+    --accent-color: #0000FF; /* アクセントカラー */
     --neutral-color: #f5f5f5; /* ネートラルカラー */
     --background-gradient: linear-gradient(to bottom, #f5f5f5, #d3d3d3)
 }
   
+
 /* リストスタイルの変更 */
 ul {
     list-style: none;
@@ -27,6 +28,7 @@ ul {
     font-size: 100px;
     text-align: center;
     font-family: Arial;
+    color: var(--neutral-color);
 }
   
 /* タブのスタイル */
@@ -61,7 +63,7 @@ ul {
   
 /* タブコンテンツのスタイル */
 .tabcontent {
-    display: none;
+    display: inline-block;
     padding: 6px 12px;
     border: 1px solid var(--neutral-color);
     border-top: none;
