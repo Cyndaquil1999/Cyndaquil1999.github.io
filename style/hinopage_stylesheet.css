@@ -67,3 +67,13 @@ ul {
     overflow: auto;
 }
 
+.tabcontent li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* 記事タブのスタイル */
+#articles a {
+    color: var(--neutral-color);
+    text-decoration: none;
+}
