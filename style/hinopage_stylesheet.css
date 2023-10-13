@@ -18,10 +18,6 @@ ul {
     list-style: none;
 }
   
-/* ヘッダーのスタイル */
-header {
-    background-color: var(--accent-color);
-}
 
 /* ヘッダータイトルのスタイル */
 .header-title {

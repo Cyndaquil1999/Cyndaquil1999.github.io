@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Windows上のVSCodeでR環境構築</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/Rwin10_vscode.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="icon" href="./images/snorlax.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-title">hino's blog</div>
+    </header>
+
+    <h1>Windows上のVSCodeでR環境構築</h1>
+    
+    <article>
+        <h2>1. RとVSCodeをインストールする</h2>
+        <ul>
+            <li>Rは <a href="https://cran.r-project.org"> インストールページ</a>にてページ上部にある"Download R for Windows" > "base"の順でDLできます。</li>
+            <li>VSCodeは検索したら出てくると思うので適当にやってください。</li>
+        </ul>
+
+        <h2>2. VSCodeでRのパスを通す</h2>
+        <ul>
+            <li>VSCode上で <code>Ctrl + ,</code> を入力するとVSCodeの設定に入ります。</li>
+            <li>検索欄にて "rterm" と入力し、 R > Rterm: Windows の欄にRのパスを入力します。</li>
+            <img src="./images/Rterm.png" alt="VSCodeの設定画面が表示されています" width="50%" height="300px">
+        </ul>
+
+        <h2>3. 実行</h2>
+        <p>動作確認として、以下のコードを実行しました。画像赤枠を見ると、きちんと出力されていることがわかります。</p>
+        <p><pre><code>print("Hello World!")</code></pre></p>
+        <p><img src="./images/Hello.jpg" alt="" width="50%" height="300px"></p>
+    </article>
+
+    <footer>
+        <p><a href="https://cyndaquil1999.github.io/">トップページに戻る</a></p>
+    </footer>
+</body>
+
+<!-- JSファイルの読み込み -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script>
+  // ハイライトを実行
+  hljs.initHighlightingOnLoad();
+</script>

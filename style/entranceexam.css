@@ -9,10 +9,6 @@ body {
     background: var(--background-gradient);
 }
 
-header {
-    background-color: var(--accent-color);
-}
-
 .header-title {
     font-size: 100px;
     text-align: center;
