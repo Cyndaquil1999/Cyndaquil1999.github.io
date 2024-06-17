@@ -30,11 +30,6 @@ export function Header() {
             <div className="bg-yellow-300 p-4 rounded-2xl">制作物</div>
           </Link>
         )}
-        {pathname !== "/links" && (
-          <Link href="/links">
-            <div className="bg-yellow-300 p-4 rounded-2xl">リンク集</div>
-          </Link>
-        )}
       </div>
     </div>
   );
