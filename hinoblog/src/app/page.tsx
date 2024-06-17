@@ -7,6 +7,8 @@ import {
 } from "@/components/ui/accordion";
 import Image from "next/image";
 import { Footer } from "@/components/ui/footer";
+import Link from "next/link";
+import { DesignedLink } from "@/components/ui/designedLink";
 
 export default function Page() {
   return (
@@ -73,7 +75,11 @@ export default function Page() {
                     <p className="text-2xl">技育プロジェクト</p>
                     <ul className="pl-10">
                       <li>
-                        技育博2022　サークル代表として、他団体との交流や知見の共有を目的に参加しました。
+                        技育博2022　サークル代表として、他団体との交流や知見の共有を目的に参加　
+                        <DesignedLink
+                          href="https://kstm.shinshu-u.ac.jp/posts/geekhaku.html"
+                          text="参加記"
+                        />
                       </li>
                       <li>技育CAMPハッカソン　2022.08, 2023.05, 2023.07参加</li>
                     </ul>
@@ -82,7 +88,34 @@ export default function Page() {
                   <li>
                     <p className="text-2xl">信州ハッカソン</p>
                     <ul className="pl-10">
-                      <li>研究室の修士学生で参加。最優秀賞を受賞しました。</li>
+                      <li>
+                        研究室の修士学生で参加。最優秀賞を受賞　
+                        <DesignedLink
+                          href="https://www.sansui-sha.co.jp/space/event-20230701"
+                          text="詳細"
+                        />
+                      </li>
+                    </ul>
+                  </li>
+                  <br />
+                  <li>
+                    <p className="text-2xl">その他</p>
+                    <ul className="pl-10">
+                      <li>
+                        <DesignedLink
+                          href="https://tech-circle-expo.connpass.com/event/317970/"
+                          text="Tech Circle Expo#2"
+                        />{" "}
+                        にて「Phigrosのツールを作ってみた話」というタイトルで登壇
+                      </li>
+                      <li>
+                        その他{" "}
+                        <DesignedLink
+                          href="https://kstm.connpass.com/event/"
+                          text="部内LT会"
+                        />{" "}
+                        で登壇多数...。
+                      </li>
                     </ul>
                   </li>
                 </ul>
