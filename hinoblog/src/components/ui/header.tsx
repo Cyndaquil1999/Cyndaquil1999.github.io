@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import  Link  from "next/link";
+import Link from "next/link";
 
 export function Header() {
   const pathname = usePathname();
@@ -12,27 +12,27 @@ export function Header() {
       <div className="flex text-white text-3xl space-x-3">
         {pathname !== "/" && (
           <Link href="/">
-            <div className="bg-yellow-300 p-4">トップ</div>
+            <div className="bg-yellow-300 p-4 rounded-2xl">トップ</div>
           </Link>
         )}
         {pathname !== "/hobby" && (
           <Link href="/hobby">
-            <div className="bg-yellow-300 p-4">趣味</div>
+            <div className="bg-yellow-300 p-4 rounded-2xl">趣味</div>
           </Link>
         )}
         {pathname !== "/article" && (
           <Link href="/article">
-            <div className="bg-yellow-300 p-4">記事</div>
+            <div className="bg-yellow-300 p-4 rounded-2xl">記事</div>
           </Link>
         )}
         {pathname !== "/project" && (
           <Link href="/project">
-            <div className="bg-yellow-300 p-4">制作物</div>
+            <div className="bg-yellow-300 p-4 rounded-2xl">制作物</div>
           </Link>
         )}
         {pathname !== "/links" && (
           <Link href="/links">
-            <div className="bg-yellow-300 p-4">リンク集</div>
+            <div className="bg-yellow-300 p-4 rounded-2xl">リンク集</div>
           </Link>
         )}
       </div>
