@@ -31,7 +31,7 @@ export default function Page() {
           </div>
         </div>
         <div className="flex items-center justify-center mx-10">
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full mb-20">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-4xl">経歴</AccordionTrigger>
               <AccordionContent>

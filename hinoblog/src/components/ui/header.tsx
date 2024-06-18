@@ -7,7 +7,7 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="flex justify-between items-center bg-headerBackground text-7xl p-6">
+    <div className="flex justify-between items-center bg-headerBackground text-7xl p-4">
       <div className="text-white">hino's blog</div>
       <div className="flex text-white text-3xl space-x-3">
         {pathname !== "/" && (
